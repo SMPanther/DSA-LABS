@@ -1,0 +1,14 @@
+void display(Queue *, ostream &); // Display the values in the Queue
+void append(Queue * src, Queue * dst); // append src to dst
+void append(Queue * src, Queue * dst, int no); // append no of values from
+src to dst
+Page 7 of 10
+void reverseAppend(Queue * src, Queue * dst);// append src in dst in reverse
+order
+int getSize(Queue * q);
+void insert(Queue * src, Queue * dst, int pos);
+void insert(Queue * q, int v, int pos); // insert a value in the queue at
+the given position
+void shiftRight(Queue * q, int pos);
+void shiftLeft(Queue * q, int pos);
+bool isEqual(Queue *, Queue * );

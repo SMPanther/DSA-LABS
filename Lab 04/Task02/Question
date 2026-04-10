@@ -1,0 +1,22 @@
+void display(Queue *, ostream &); // Display the values in the Queue
+void append(Queue * src, Queue * dst); // append src to dst
+void append(Queue * src, Queue * dst, int no); // append no of values from
+src to dst
+void reverseAppend(Queue * src, Queue * dst);// append src in dst in reverse
+order
+int getSize(Queue * q);
+void insert(Queue * src, Queue * dst, int pos);
+void insert(Queue * q, int v, int pos); // insert a value in the queue at
+the given position
+void shiftRight(Queue * q, int pos);
+void shiftLeft(Queue * q, int pos);
+bool isEqual(Queue *, Queue * );
+int get(Queue * q, int pos); // get from the queue the value at the given
+position after removing from the Queue
+void sort(Queue *); // Sort the values in the queue in ascending order
+bool isPalindrome(Queue *); // check if the values in the queue are
+Palindrome
+void isPalindrome(Queue *, bool & ); //where single digits are stored and
+you can’t use any other Queue or Stack or ADT
+void rotateLeft (Queue * q, int pos);
+void rotateRight (Queue * q, int pos);
